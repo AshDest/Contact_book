@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Contact>
  */
 use App\Models\Contact;
+
 class ContactFactory extends Factory
 {
     /**
@@ -18,7 +19,7 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
-            //
+
         ];
     }
 }
